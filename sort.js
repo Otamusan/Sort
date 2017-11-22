@@ -307,4 +307,3 @@ for (var i = 0; i < CUtil.sigma(function(n){return n;},1,par)-par+1; i++) {
 }
 
 console.log("終了！!!!");
-console.log("もひとつ終了！！");

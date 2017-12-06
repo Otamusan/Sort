@@ -31,7 +31,6 @@ class CUtil{
 	}
 }
 
-// dataコンストラクタ
 class Cdata{
 	constructor(index, amount) {
 		this.amount = amount;
@@ -153,6 +152,7 @@ class Csort{
 		}
 		return info
 	}
+
 	static sortBucket(data){
 		var info=new Object;
 		info.comparison=0;
@@ -250,6 +250,7 @@ class Csort{
 		return info
 	}
 }
+
 /*
 for(var k=1; k<=100; k++){
 	var sum=new Object;
@@ -288,9 +289,8 @@ for(var i=1; i<=CUtil.fac(par); i++){
 	ECIdata[i].movement=inf.movement;
 	//console.log(entropy+","+inf.comparison+","+inf.movement);	
 }
-//すべての乱雑度を処理
+
 for (var i = 0; i < CUtil.sigma(function(n){return n;},1,par)-par+1; i++) {
-	//特定の乱雑度の比較数、移動数をすべて足す
 	var sumComparison=0;
 	var sumMovement=0;
 	var sumNumber=0;
@@ -307,4 +307,3 @@ for (var i = 0; i < CUtil.sigma(function(n){return n;},1,par)-par+1; i++) {
 }
 
 console.log("終了!!!");
-//testtesttest

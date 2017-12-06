@@ -1,3 +1,7 @@
+"use strict";
+var OTMU = require("../OtamuLib/OtamuLib.js");
+
+
 class CUtil{
 	static fac(k) {
 		var j = 1;
